@@ -33,7 +33,7 @@ Financial Decision Helper (FinHelper) is a modern web application that empowers 
    ```sh
    npm run dev
    ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+   Open [http://localhost:3000](https://fin-helper.vercel.app/) in your browser to see the app.
 
 ### Build for Production
 ```sh
