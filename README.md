@@ -1,5 +1,7 @@
 # FinHelper
 
+[Live Demo on Vercel](https://fin-helper.vercel.app/)
+
 Financial Decision Helper (FinHelper) is a modern web application that empowers users to make smarter business decisions through interactive CVP (Cost-Volume-Profit), break-even, and What-If analysis for multiple products. Visualize your data, set targets, and export your results with ease.
 
 ## Features
