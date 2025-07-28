@@ -1,38 +1,72 @@
-# FinHelper CVP Analysis Tool
+# FinHelper
 
-FinHelper is a modern, user-friendly Cost-Volume-Profit (CVP) analysis tool designed to help you make smarter financial decisions for your business or studies. Easily manage multiple products, analyze break-even points, calculate target profits, and export your results in CSV or PDF format.
+Financial Decision Helper (FinHelper) is a modern web application that empowers users to make smarter business decisions through interactive CVP (Cost-Volume-Profit), break-even, and What-If analysis for multiple products. Visualize your data, set targets, and export your results with ease.
 
 ## Features
 
-- **Product Management:** Add, edit, and remove products with detailed cost and sales inputs.
-- **CVP Analysis:** Instantly visualize break-even points, contribution margins, and profits for each product.
-- **What-If Analysis:** Calculate required sales to achieve a target profit and margin of safety.
-- **Export:** Download your analysis as CSV or PDF for sharing or record-keeping.
-- **Modern UI:** Responsive, accessible, and easy to use on any device.
+- **Multi-Product CVP Analysis:** Input details for multiple products and instantly see contribution margin, break-even, and profit for each one.
+- **What-If & Target Profit Analysis:** Set a target profit and discover the sales needed to reach your goals, with margin of safety calculations.
+- **Interactive Graphs:** Visualize break-even, revenue, and cost with beautiful, interactive graphs for each product.
+- **Export & Share:** Download your analysis as PDF or CSV for easy sharing and reporting.
+- **Modern UI:** Clean, responsive design built with Next.js and Tailwind CSS.
 
-## Live Demo
+## Getting Started
 
-Access the live app here: [https://finhelper.vercel.app](https://finhelper.vercel.app)
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm (v8 or higher)
 
-## How to Use
+### Installation
 
-1. **Add Products:** Use the Product Management section to add products and enter details like name, units sold, selling price, variable cost, and fixed cost.
-2. **Analyze:** View break-even points, contribution margins, and profits in the CVP Analysis section.
-3. **What-If:** Enter a target profit in the What-If Analysis section to see required sales and margin of safety.
-4. **Export:** Download your results as CSV or PDF using the export buttons.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Ayush2606jain/finHelper.git
+   cd finHelper
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-## Financial Terms Explained
+### Build for Production
+```sh
+npm run build
+npm start
+```
 
-- **Break-Even Point:** The number of units that must be sold to cover all costs (no profit, no loss).
-- **Contribution Margin:** The amount each unit contributes to covering fixed costs and generating profit (Selling Price per Unit - Variable Cost per Unit).
-- **Variable Cost:** Costs that change with the number of units produced (e.g., materials).
-- **Fixed Cost:** Costs that remain constant regardless of units produced (e.g., rent).
-- **Margin of Safety:** The difference between actual/expected sales and break-even sales.
-- **Target Profit:** The profit goal you want to achieve, used to calculate required sales.
+## Usage
+- Navigate to the homepage to get an overview of the app.
+- Click **Get Started** to begin your analysis.
+- Add product details, set target profits, and view interactive charts.
+- Export your results as PDF or CSV for reporting.
 
-## Tech Stack
+## Technologies Used
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Chart.js](https://www.chartjs.org/)
+- [jsPDF](https://github.com/parallax/jsPDF)
+- [PapaParse](https://www.papaparse.com/)
 
-- [Next.js](https://nextjs.org/) & [React](https://react.dev/) for the frontend
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Chart.js](https://www.chartjs.org/) (via [react-chartjs-2](https://react-chartjs-2.js.org/)) for charts
-- [jsPDF](https://github.com/parallax/jsPDF) and [PapaParse](https://www.papaparse.com/) for exports
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+### Steps to Replace the README
+1. The old README has been deleted.
+2. This new README has been created with updated project information and instructions.
+3. Commit and push the changes to your GitHub repository:
+   ```sh
+   git add README.md
+   git commit -m "Update README with project details and instructions"
+   git push
+   ``` 
